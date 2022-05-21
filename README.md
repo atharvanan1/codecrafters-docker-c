@@ -1,6 +1,6 @@
-This is a starting point for C solutions to the
-["Build Your Own Docker" Challenge](https://codecrafters.io/challenges/docker).
+Solution to ["Build Your Own Docker" Challenge](https://codecrafters.io/challenges/docker).
 
+Copied from original README:
 In this challenge, you'll build a program that can pull an image from
 [Docker Hub](https://hub.docker.com/) and execute commands in it. Along the way,
 we'll learn about [chroot](https://en.wikipedia.org/wiki/Chroot),
@@ -9,6 +9,7 @@ we'll learn about [chroot](https://en.wikipedia.org/wiki/Chroot),
 
 **Note**: If you're viewing this repo on GitHub, head over to
 [codecrafters.io](https://codecrafters.io) to signup for early access.
+--END--
 
 # Building
 
