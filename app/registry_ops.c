@@ -497,5 +497,10 @@ pull_image(char *image, char *rootfs_path)
             log_msg(ERR, "Failed to run following command\n%s", cmd);
             return -1;
         }
+	    free(shaLayers[i]);
     }
+
+    free(shaLayers);
+    free(auth_token);
+    return 0;
 }
